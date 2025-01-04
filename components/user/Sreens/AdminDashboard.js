@@ -61,7 +61,7 @@ const AdminDashboard = () => {
       </View>
 
 
-      <TouchableOpacity style={styles.addButton} onPress={() => navigation.navigate('CreateTask')}>
+      <TouchableOpacity style={styles.addButton} onPress={() => navigation.navigate('AddTask')}>
         <Text style={styles.addButtonText}>Add New Task</Text>
       </TouchableOpacity>
 
